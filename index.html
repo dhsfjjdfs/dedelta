@@ -1,0 +1,1039 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+::selection {
+	color: white;
+	background-color: #962584ad;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif; }
+  body a {
+    text-decoration: none; }
+
+* {
+  box-sizing: border-box; }
+
+.button-reg {
+  padding: 12px 25px;
+  border-radius: 50px;
+  letter-spacing: -0.3px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: .2s; }
+  .button-reg i {
+    margin-left: 15px;
+    font-size: 13px; }
+  .button-reg:hover {
+    -webkit-font-smoothing: antialiased;
+    transform: translateY(-0.5em);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1); }
+
+@keyframes echo {
+  0% {
+    -moz-box-shadow: 0 0 0 #005DA7;
+    box-shadow: 0 0 0 0 #005DA7; }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(255, 16, 83, 0);
+    box-shadow: 0 0 0 10px rgba(255, 16, 83, 0); }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(255, 16, 83, 0);
+    box-shadow: 0 0 0 0 rgba(255, 16, 83, 0); } }
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="submit"] {
+-webkit-appearance: none;
+-webkit-border-radius: 0;
+}
+
+#wrapper {
+  max-width: 85vw;
+  margin: 0px auto; }
+
+#top-bar {
+  padding: 15px 0;
+  background-color: #5f519c; }
+
+.nav-colored { box-shadow: 5px -1px 12px -5px grey; }
+
+
+header {
+	z-index: 99999;
+	background-color: white;
+	position: sticky;
+    top: 0;
+	transition: 0.3s ease-in-out;
+  padding: 10px 0; }
+  header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .content article .active {
+      color: #8C147E;
+      border-bottom: 1px solid #8C147E; }
+    header .content article a {
+      margin-right: 20px;
+      color: black;
+      letter-spacing: -0.3px;
+      font-weight: 500;
+      font-size: 15px; }
+      header .content article a img {
+        width: 139px; }
+    header .content article .magister {
+      background-color: #005DA7;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 50px;
+      font-weight: 400;
+      display: inline-flex;
+      margin: 0px;
+      align-items: center; }
+      header .content article .magister i {
+        font-size: 13px;
+        margin-right: 10px; }
+
+h2 {
+  letter-spacing: -1px;
+  font-size: 30px;
+  margin: 0px;
+  font-weight: 600; }
+
+#hero-home {
+  background-image: url("/wp-content/uploads/2021/04/15601024614_5ea97f0d07_k.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #hero-home #overlay {
+    padding: 15vh 0;
+/*     background: linear-gradient(180deg, rgba(233, 94, 17, 0.25) 0%, rgba(212, 214, 0, 0.25) 100%); */ }
+  #hero-home .content {
+    display: flex; }
+    #hero-home .content article {
+      flex: 0 0 50%; }
+      #hero-home .content article h1 {
+        color: white;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 50px;
+        margin: 0 0 40px 0; }
+      #hero-home .content article form .container {
+        position: relative;
+        width: 400px; }
+        #hero-home .content article form .container i {
+          position: absolute;
+          line-height: 60px;
+          left: 26px;
+          color: #BFBFBF;
+          font-size: 14px; }
+        #hero-home .content article form .container .search {
+          outline: none;
+          background-color: white;
+          border: none;
+          font-family: 'Poppins', sans-serif;
+          width: 400px;
+          padding: 0 95px 0 55px;
+          border-radius: 50px;
+          line-height: 60px;
+          font-size: 14px; }
+        #hero-home .content article form .container input[type=submit] {
+          outline: none;
+          position: absolute;
+          right: 12px;
+          top: 11px;
+          background-color: #005DA7;
+          border: none;
+          padding: 10px 20px;
+          font-family: 'Poppins', sans-serif;
+          color: white;
+          border-radius: 50px;
+          cursor: pointer; }
+        #hero-home .content article form .container input::placeholder {
+          color: #BFBFBF;
+          font-family: 'Poppins', sans-serif;
+          letter-spacing: -0.3px; }
+
+#hero-landing {
+  background-image: url("/wp-content/uploads/2021/04/15601024614_5ea97f0d07_k.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #hero-landing #overlay {
+    padding: 15vh 0;
+/*     background: linear-gradient(180deg, rgba(233, 94, 17, 0.25) 0%, rgba(212, 214, 0, 0.25) 100%); */ }
+  #hero-landing .content {
+    display: flex; }
+    #hero-landing .content article {
+      flex: 0 0 50%; }
+      #hero-landing .content article h1 {
+        color: white;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 50px;
+        margin: 0px; }
+
+#wat-is-de-delta {
+  padding: 5vh 0; }
+  #wat-is-de-delta .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    #wat-is-de-delta .content article {
+      flex: 0 0 30%; }
+      #wat-is-de-delta .content article p {
+        color: #1d1d1d;
+        letter-spacing: -0.2px;
+        line-height: 30px; }
+        #wat-is-de-delta .content article p span {
+          color: #005DA7; }
+      #wat-is-de-delta .content article .button-reg {
+        display: inline-block;
+        background: rgba(93, 32, 139, 0.19);
+        color: #5D208B; }
+    #wat-is-de-delta .content .tabs {
+      flex: 0 0 800px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between; }
+      #wat-is-de-delta .content .tabs div {
+        flex: 0 0 385px; }
+        #wat-is-de-delta .content .tabs div h3 {
+          margin: 0px;
+          background-color: #5f519c;
+          padding: 20px;
+          color: white;
+          font-weight: 500;
+          font-size: 17px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px; }
+          #wat-is-de-delta .content .tabs div h3 i {
+            margin-right: 10px; }
+        #wat-is-de-delta .content .tabs div #content {
+			height: 370px;
+          position: relative;
+          padding: 35px 23px;
+          background: #FFFFFF;
+          box-shadow: 0px 10px 40px 10px rgba(0, 0, 0, 0.06);
+          border-radius: 10px; }
+          #wat-is-de-delta .content .tabs div #content .row {
+            display: flex;
+            align-items: center;
+            background: rgba(238, 241, 255, 0.8);
+            padding: 7px;
+            color: #1d1d1d;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+            border-radius: 10px;
+            font-size: 15px;
+            margin-bottom: 10px; }
+            #wat-is-de-delta .content .tabs div #content .row:hover {
+              text-decoration: underline; }
+            #wat-is-de-delta .content .tabs div #content .row .date {
+              position: relative;
+              flex: unset;
+              text-align: center;
+              background-color: white;
+              border-radius: 5px;
+              min-width: 42px;
+              min-height: 42px;
+              margin-right: 15px; }
+              #wat-is-de-delta .content .tabs div #content .row .date h4 {
+                display: block;
+                margin: 0px;
+                line-height: 12.5px;
+                color: black;
+                font-weight: 600;
+                position: absolute;
+                font-size: 13.5px;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%); }
+                #wat-is-de-delta .content .tabs div #content .row .date h4 i {
+                  color: #53C4FF;
+                  font-size: 16px; }
+                #wat-is-de-delta .content .tabs div #content .row .date h4 span {
+                  color: #53C4FF;
+                  font-weight: 600;
+                  text-transform: uppercase; }
+              #wat-is-de-delta .content .tabs div #content .row .date .fa-head-side-cough {
+                color: #FF4349;
+                font-size: 18px; }
+              #wat-is-de-delta .content .tabs div #content .row .date .fa-clock {
+                font-size: 18px; }
+              #wat-is-de-delta .content .tabs div #content .row .date .fa-campground {
+                font-size: 18px;
+                color: #00CD8A; }
+              #wat-is-de-delta .content .tabs div #content .row .date .fa-user-shield {
+                font-size: 18px;
+                color: #5D208B; }
+          #wat-is-de-delta .content .tabs div #content .bekijk-alles {
+            color: #1d1d1d;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-top: 30px; }
+            #wat-is-de-delta .content .tabs div #content .bekijk-alles i {
+              color: #53C4FF;
+              margin-left: 5px; }
+
+#wat-biedt-de-delta {
+  padding: 10vh 0; }
+  #wat-biedt-de-delta .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; }
+    #wat-biedt-de-delta .content .image {
+      flex: 0 0 40%;
+      margin: unset; }
+      #wat-biedt-de-delta .content .image .container {
+        height: 450px;
+        background-image: url("../img/foto4.JPG");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px; }
+    #wat-biedt-de-delta .content article {
+      width: 500px;
+      flex: 0 0 40%;
+      margin-right: 17.5vw; }
+      #wat-biedt-de-delta .content article p {
+        color: #1d1d1d;
+        letter-spacing: -0.2px;
+        line-height: 30px; }
+        #wat-biedt-de-delta .content article p span {
+          color: #005DA7; }
+      #wat-biedt-de-delta .content article .button-reg {
+        display: inline-block;
+        background: rgba(93, 32, 139, 0.19);
+        color: #5D208B; }
+
+#wat-biedt-de-delta-sm {
+  display: none; }
+
+#logos {
+  position: relative;
+  padding-bottom: 3vh; }
+  #logos .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    #logos .content .verband {
+      background: white;
+      padding: 20px;
+      border-radius: 15px; }
+    #logos .content .circle {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background: rgba(255, 237, 9, 0.31);
+      border-radius: 50%;
+      z-index: -999;
+      left: 25%;
+      bottom: -120px; }
+
+footer {
+  padding: 2vh 0 0 0;
+  background-color: #5f519c;
+  position: relative; }
+  footer .breadcrumbs {
+	      margin-bottom: 25px;
+    color: white;
+    font-weight: 400;
+    font-size: 15px; }
+    footer .breadcrumbs span {
+      color: #FF4349;
+      font-weight: 500; }
+	footer .breadcrumbs a,
+	footer .breadcrumbs span.breadcrumb_last {
+      color: white;
+      font-weight: 400; }
+footer .breadcrumbs span.breadcrumb_last {
+	font-weight: 500 !important;
+}
+  footer .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; }
+    footer .content .left {
+      flex: 0 0 45%; }
+      footer .content .left p {
+		  margin: 0px;
+        color: white;
+        line-height: 30px;
+        font-size: 15px; }
+    footer .content article h4 {
+      margin: 0px;
+      color: white;
+      font-weight: 500; }
+    footer .content article p {
+      color: white;
+      font-size: 15px; }
+    footer .content article .button-reg {
+      background-color: #F29300;
+      display: inline-block;
+      margin-bottom: 15px; }
+      footer .content article .button-reg i {
+        margin: unset;
+        font-size: unset; }
+      footer .content article .button-reg:hover {
+        text-decoration: unset; }
+    footer .content article a {
+      color: white; }
+      footer .content article a:hover {
+        text-decoration: underline;
+        text-decoration-color: #FF4349; }
+  footer #footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid white;
+    padding: 2vh 0;
+    margin-top: 5vh; }
+    footer #footer-bottom article p {
+      color: white;
+      font-size: 15px; }
+    footer #footer-bottom .socials {
+      display: flex;
+      align-items: center; }
+      footer #footer-bottom .socials a {
+        margin: 0 5px;
+        background-color: #F29300;
+        transition: .2s;
+        color: white;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 50%; }
+        footer #footer-bottom .socials a:hover {
+          -webkit-font-smoothing: antialiased;
+          transform: translateY(-0.5em);
+          box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1); }
+
+#section-content {
+  padding: 10vh 0;
+  background-color: #f4f0f6; }
+  #section-content .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+    #section-content .content article div {
+      flex: 0 0 385px; }
+      #section-content .content article div h3 {
+        margin: 0px;
+        background-color: #5f519c;
+        padding: 20px;
+        color: white;
+        font-weight: 500;
+        font-size: 17px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px; }
+        #section-content .content article div h3 i {
+          margin-right: 10px; }
+      #section-content .content article div #content {
+        position: relative;
+        padding: 35px 23px;
+        background: #FFFFFF;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px; }
+        #section-content .content article div #content .row {
+          display: flex;
+          align-items: center;
+          background: rgba(238, 241, 255, 0.8);
+          padding: 7px;
+          color: #1d1d1d;
+          font-weight: 600;
+          letter-spacing: -0.5px;
+          border-radius: 10px;
+          font-size: 15px;
+          margin-bottom: 10px; }
+          #section-content .content article div #content .row:hover {
+            text-decoration: underline; }
+          #section-content .content article div #content .row .date {
+            position: relative;
+            flex: unset;
+            text-align: center;
+            background-color: white;
+            border-radius: 5px;
+            min-width: 42px;
+            min-height: 42px;
+            margin-right: 15px; }
+            #section-content .content article div #content .row .date h4 {
+              display: block;
+              margin: 0px;
+              line-height: 12.5px;
+              color: black;
+              font-weight: 600;
+              position: absolute;
+              font-size: 13.5px;
+              top: 50%;
+              left: 50%;
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+              #section-content .content article div #content .row .date h4 i {
+                color: #53C4FF;
+                font-size: 16px; }
+              #section-content .content article div #content .row .date h4 span {
+                color: #53C4FF;
+                font-weight: 600;
+                text-transform: uppercase; }
+            #section-content .content article div #content .row .date .fa-head-side-cough {
+              color: #FF4349;
+              font-size: 18px; }
+            #section-content .content article div #content .row .date .fa-clock {
+              font-size: 18px; }
+            #section-content .content article div #content .row .date .fa-campground {
+              font-size: 18px;
+              color: #00CD8A; }
+            #section-content .content article div #content .row .date .fa-user-shield {
+              font-size: 18px;
+              color: #5D208B; }
+        #section-content .content article div #content .bekijk-alles {
+          color: #1d1d1d;
+          font-weight: 600;
+          letter-spacing: -0.5px;
+          font-size: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          margin-top: 30px; }
+          #section-content .content article div #content .bekijk-alles i {
+            color: #53C4FF;
+            margin-left: 5px; }
+
+	#section-content .content .left-content table {
+		border-collapse: collapse;
+	}
+	#section-content .content .left-content table tbody tr:nth-child(odd) {
+		background-color: #f4f0f6;
+	}
+	#section-content .content .left-content table tbody tr td {
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 5px;
+		letter-spacing: -0.25px;
+	}
+    #section-content .content .left-content {
+      flex: 0 0 70%;
+      background-color: white;
+      border-radius: 5px;
+      padding: 30px; }
+      #section-content .content .left-content .title {
+        letter-spacing: -1px;
+        font-size: 30px;
+        margin: 0px;
+        font-weight: 600; }
+      #section-content .content .left-content .sub-title {
+        letter-spacing: -0.3px;
+        font-size: 20px;
+        margin: 0px;
+        font-weight: 500; }
+      #section-content .content .left-content p {
+        letter-spacing: -0.2px;
+        line-height: 30px;
+        color: #1d1d1d; }
+        #section-content .content .left-content p i {
+          color: #5f519c; }
+        #section-content .content .left-content p .link {
+          color: #5f519c;
+          font-weight: 600; }
+          
+      #section-content .content .left-content ul li {
+        letter-spacing: -0.2px;
+        line-height: 30px;
+        color: #1d1d1d; }
+        #section-content .content /*.left-content ul li*/ a {
+          color: #5f519c;
+          transition: .2s;
+          font-weight: 600; }
+          #section-content .content .left-content ul li a i {
+            font-size: 14px;
+            margin-right: 2px; }
+          #section-content .content .left-content ul li a .fa-whatsapp {
+            font-weight: bold; }
+          #section-content .content /*.left-content ul li*/ a:hover {
+            color: #1d1d1d;
+            text-decoration: underline; }
+      #section-content .content .left-content h4 {
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: -0.25px;
+        margin: 30px 0 -10px 0; }
+    #section-content .content .sidebar {
+      flex: 0 0 25%; }
+
+#contact {
+  padding: 10vh 0; }
+  #contact .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+    #contact .content h2 {
+      margin: 0px; }
+    #contact .content h3 {
+      margin: 10px 0 35px 0;
+      letter-spacing: -0.3px;
+      font-size: 18px;
+      font-weight: 500; }
+    #contact .content #formulier {
+      flex: 0 0 65%; }
+	#contact .content #formulier label {
+		font-weight: 500;
+		font-size: 13.5px;
+		letter-spacing: -0.3px;
+		color: #5f519c;
+		margin-bottom: 5px;
+	}
+	#contact .content #formulier input,
+	#contact .content #formulier textarea {
+		box-shadow: none;
+		letter-spacing: -0.5px;
+		outline: none;
+		padding: 10px;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		box-sizing: border-box;
+		border-radius: 5px;
+		transition: .2s;
+		font-size: 15px;
+		width: 100%;
+		font-family: 'Poppins', sans-serif;
+	}
+	#contact .content #formulier textarea {
+		resize: none;
+	}
+	#contact .content #formulier input.wpcf7-form-control.wpcf7-submit {
+		border-radius: 50px;
+		background-color: #5f519c;
+		font-family: 'Poppins', sans-serif;
+		color: white;
+		cursor: pointer;
+		letter-spacing: 0px;
+		width: 50%;
+	}
+	#contact .content #formulier input:focus,
+	#contact .content #formulier textarea:focus{
+		border-color: #5f519c;
+	}
+
+    #contact .content .usp .box {
+		margin-bottom: 20px;
+      flex: 0 0 30%;
+      background-color: #e8e8ff;
+      padding: 40px;
+      border-radius: 10px; }
+
+	#contact .content .usp .box.swvleiden {
+		background-color: #e8e8ff;
+	}
+      #contact .content .usp h4 {
+        font-weight: 600;
+        margin: 0 0 20px 0;
+        letter-spacing: -0.3px;
+        font-size: 18px; }
+#contact .content .usp h4 span {
+	font-size: 16px;
+}
+#contact .content .usp ul li.nood {
+	list-style: none;
+	margin-bottom: 5px;
+}
+
+      #contact .content .usp ul {
+        padding: 0px;
+        margin: 0px; }
+        #contact .content .usp ul .adres {
+          list-style-type: none;
+          position: relative;
+          padding-left: 25px;
+          letter-spacing: -0.3px;
+          margin-bottom: 15px;
+          line-height: 30px; }
+          #contact .content .usp ul .adres::before {
+            content: '\f3c5';
+            font-family: 'Font Awesome\ 5 Free';
+            font-weight: bold;
+            color: #5f519c;
+            font-size: 16px;
+            top: 0px;
+            position: absolute;
+            left: 0; }
+          #contact .content .usp ul .adres a {
+            color: black; }
+        #contact .content .usp ul .email {
+          list-style-type: none;
+          position: relative;
+          padding-left: 25px;
+          letter-spacing: -0.3px;
+          margin-bottom: 15px; }
+		#contact .content .usp ul .email a {
+			color: #5f519c;
+		}
+		#contact .wpcf7-not-valid-tip {
+			font-size: 13.5px;
+		}
+          #contact .content .usp ul .email::before {
+            content: '\f0e0';
+            font-family: 'Font Awesome\ 5 Free';
+            font-weight: bold;
+            color: #5f519c;
+            font-size: 16px;
+            top: 4px;
+            position: absolute;
+            left: 0; }
+        #contact .content .usp ul .phone {
+          list-style-type: none;
+          position: relative;
+          padding-left: 25px;
+          letter-spacing: -0.3px;
+          margin-bottom: 15px; }
+		#contact .content .usp ul .phone a {
+			color: #5f519c;
+		}
+          #contact .content .usp ul .phone::before {
+            content: '\f879';
+            font-family: 'Font Awesome\ 5 Free';
+            font-weight: bold;
+            color: #5f519c;
+            font-size: 16px;
+            top: 4px;
+            position: absolute;
+            left: 0; }
+
+@media (max-width: 620px) {
+	#top-bar {
+		padding: 5px 0;
+	}
+  #wrapper {
+    max-width: 85vw; }
+
+  h2 {
+    font-size: 25px; }
+
+  #hero-home #overlay {
+    padding: 6vh 0; }
+  #hero-home .content article {
+    flex: 0 0 100%; }
+    #hero-home .content article h1 {
+      font-size: 27px;
+      font-weight: 600;
+      line-height: 40px; }
+    #hero-home .content article form .container {
+      width: 100%; }
+      #hero-home .content article form .container .search {
+        width: 100%; }
+	
+	#hero-landing #overlay {
+    padding: 6vh 0; }
+  #hero-landing .content article {
+    flex: 0 0 100%; }
+    #hero-landing .content article h1 {
+      font-size: 27px;
+      font-weight: 600;
+      line-height: 40px; }
+
+  #wat-is-de-delta .content article {
+    flex: 0 0 100%; }
+    #wat-is-de-delta .content article p {
+      font-size: 15px; }
+  #wat-is-de-delta .content .tabs {
+    margin-top: 30px;
+    display: unset;
+    flex: 0 0 100%; }
+    #wat-is-de-delta .content .tabs .box {
+      margin-bottom: 25px; }
+    #wat-is-de-delta .content .tabs div {
+      flex: 0 0 100%; }
+      #wat-is-de-delta .content .tabs div #content {
+        padding: 35px 10px; }
+        #wat-is-de-delta .content .tabs div #content .row {
+          font-size: 14px; }
+
+  #wat-biedt-de-delta {
+    display: none; }
+
+  #wat-biedt-de-delta-sm {
+    display: block;
+    padding: 5vh 0; }
+    #wat-biedt-de-delta-sm .content {
+      flex-wrap: wrap; }
+      #wat-biedt-de-delta-sm .content article {
+        flex: 0 0 100%; }
+        #wat-biedt-de-delta-sm .content article img {
+          width: 100%;
+          border-radius: 10px;
+          display: block;
+          margin-bottom: 15px; }
+        #wat-biedt-de-delta-sm .content article p {
+          color: #1d1d1d;
+          letter-spacing: -0.2px;
+          line-height: 30px; }
+        #wat-biedt-de-delta-sm .content article .button-reg {
+          display: inline-block;
+          background: rgba(93, 32, 139, 0.19);
+          color: #5D208B; }
+
+  footer {
+    padding: 6vh 0 0 0; }
+    footer #footer-bottom {
+      margin-top: 1vh; }
+    footer .breadcrumbs {
+      display: none; }
+    footer .content {
+      flex-wrap: wrap; }
+      footer .content article {
+        flex: 0 0 100%;
+        margin-bottom: 30px; }
+        footer .content article h4 br {
+          display: none; }
+      footer .content .left {
+        flex: 0 0 100%; } 
+	
+	#section-content .content {
+    flex-wrap: wrap; }
+    #section-content .content .left-content {
+      flex: 0 0 100%;
+      padding: 20px;
+      margin-bottom: 25px; }
+      #section-content .content .left-content .title {
+        font-size: 25px; }
+      #section-content .content .left-content .sub-title {
+        font-size: 18px; }
+    #section-content .content .sidebar {
+      flex: 0 0 100%; }
+	
+	
+	#contact {
+		padding: 5vh 0;
+	}
+	#contact .content {
+		flex-wrap: wrap;
+	}
+	#contact .content #formulier,
+	#contact .content .usp {
+		flex: 0 0 100%;
+	}
+	#contact .content h3 {
+		letter-spacing: -0.1px;
+    	font-size: 13px;
+	}
+
+}
+@media (min-width: 621px) and (max-width: 900px) {
+  #wrapper {
+    max-width: 75vw; }
+
+  h2 {
+    font-size: 25px;
+    letter-spacing: -0.7px; }
+
+  #hero-home #overlay {
+    padding: 8vh 0; }
+  #hero-home .content article {
+    flex: 0 0 100%; }
+    #hero-home .content article h1 {
+      font-size: 27px;
+      font-weight: 600;
+      line-height: 40px; }
+    #hero-home .content article form .container {
+      width: 100%; }
+      #hero-home .content article form .container .search {
+        width: 100%; }
+	
+	#hero-landing #overlay {
+    padding: 8vh 0; }
+  #hero-landing .content article {
+    flex: 0 0 100%; }
+    #hero-landing .content article h1 {
+      font-size: 27px;
+      font-weight: 600;
+      line-height: 40px; }
+
+  #wat-is-de-delta {
+    padding: 8vh 0; }
+    #wat-is-de-delta .content article {
+      flex: 0 0 100%; }
+      #wat-is-de-delta .content article p {
+        font-size: 15px; }
+    #wat-is-de-delta .content .tabs {
+      margin-top: 30px;
+      display: unset;
+      flex: 0 0 100%; }
+      #wat-is-de-delta .content .tabs .box {
+        margin-bottom: 25px; }
+      #wat-is-de-delta .content .tabs div {
+        flex: 0 0 100%; }
+        #wat-is-de-delta .content .tabs div #content {
+          padding: 35px 10px; }
+          #wat-is-de-delta .content .tabs div #content .row {
+            font-size: 14px; }
+
+  #wat-biedt-de-delta {
+    display: none; }
+
+  #wat-biedt-de-delta-sm {
+    display: block;
+    padding: 5vh 0 8vh 0; }
+    #wat-biedt-de-delta-sm .content {
+      flex-wrap: wrap; }
+      #wat-biedt-de-delta-sm .content article {
+        flex: 0 0 100%; }
+        #wat-biedt-de-delta-sm .content article img {
+          width: 100%;
+          border-radius: 10px;
+          display: block;
+          margin-bottom: 30px; }
+        #wat-biedt-de-delta-sm .content article p {
+          color: #1d1d1d;
+          letter-spacing: -0.2px;
+          line-height: 30px; }
+        #wat-biedt-de-delta-sm .content article .button-reg {
+          display: inline-block;
+          background: rgba(93, 32, 139, 0.19);
+          color: #5D208B; }
+
+  footer {
+    padding: 6vh 0 0 0; }
+    footer #footer-bottom {
+      margin-top: 1vh; }
+    footer .breadcrumbs {
+      display: none; }
+    footer .content {
+      flex-wrap: wrap; }
+      footer .content article {
+        margin-bottom: 30px; }
+        footer .content article h4 br {
+          display: none; }
+      footer .content .left {
+        flex: 0 0 100%; }
+
+	#section-content .content .left-content {
+    flex: 0 0 65%;
+    padding: 20px;
+    margin-bottom: 25px; }
+    #section-content .content .left-content .title {
+      font-size: 25px;
+      letter-spacing: -0.7px; }
+    #section-content .content .left-content .sub-title {
+      font-size: 18px; }
+  #section-content .content .sidebar {
+    flex: 0 0 33%; }
+	
+	#contact {
+		padding: 5vh 0;
+	}
+	#contact .content {
+		flex-wrap: wrap;
+	}
+	#contact .content #formulier,
+	#contact .content .usp {
+		flex: 0 0 100%;
+	}
+	#contact .content h3 {
+		letter-spacing: -0.1px;
+    	font-size: 13px;
+	}
+	
+}
+@media (min-width: 901px) and (max-width: 1200px) {
+  #wrapper {
+    max-width: 70vw; }
+
+  h2 {
+    font-size: 25px;
+    letter-spacing: -0.7px; }
+
+  #hero-home #overlay {
+    padding: 8vh 0; }
+  #hero-home .content article {
+    flex: 0 0 100%; }
+    #hero-home .content article h1 {
+      font-size: 27px;
+      font-weight: 600;
+      line-height: 40px; }
+	
+	#hero-landing #overlay {
+    padding: 8vh 0; }
+  #hero-landing .content article {
+    flex: 0 0 100%; }
+    #hero-landing .content article h1 {
+      font-size: 27px;
+      font-weight: 600;
+      line-height: 40px; }
+
+  #wat-is-de-delta {
+    padding: 8vh 0; }
+    #wat-is-de-delta .content article {
+      flex: 0 0 100%; }
+      #wat-is-de-delta .content article p {
+        font-size: 15px; }
+    #wat-is-de-delta .content .tabs {
+      margin-top: 30px;
+      display: unset;
+      flex: 0 0 100%; }
+      #wat-is-de-delta .content .tabs .box {
+        margin-bottom: 25px; }
+      #wat-is-de-delta .content .tabs div {
+        flex: 0 0 100%; }
+        #wat-is-de-delta .content .tabs div #content {
+          padding: 35px 10px; }
+          #wat-is-de-delta .content .tabs div #content .row {
+            font-size: 14px; }
+
+  #wat-biedt-de-delta {
+    display: none; }
+
+  #wat-biedt-de-delta-sm {
+    display: block;
+    padding: 5vh 0 8vh 0; }
+    #wat-biedt-de-delta-sm .content {
+      flex-wrap: wrap; }
+      #wat-biedt-de-delta-sm .content article {
+        flex: 0 0 100%; }
+        #wat-biedt-de-delta-sm .content article img {
+          width: 70%;
+          border-radius: 10px;
+          display: block;
+          margin-bottom: 30px; }
+        #wat-biedt-de-delta-sm .content article p {
+          color: #1d1d1d;
+          letter-spacing: -0.2px;
+          line-height: 30px; }
+        #wat-biedt-de-delta-sm .content article .button-reg {
+          display: inline-block;
+          background: rgba(93, 32, 139, 0.19);
+          color: #5D208B; }
+
+  footer {
+    padding: 6vh 0 0 0; }
+    footer #footer-bottom {
+      margin-top: 1vh; }
+    footer .breadcrumbs {
+      display: none; }
+    footer .content {
+      flex-wrap: wrap; }
+      footer .content article {
+        margin-bottom: 30px; }
+        footer .content article h4 br {
+          display: none; }
+      footer .content .left {
+        flex: 0 0 100%; } }
+
+@media (min-width: 1200px) and (max-width: 1758px) {
+	#wat-is-de-delta .content {
+		display: unset;
+	}
+	
+	#wat-is-de-delta .content .tabs {
+		margin-top: 40px;
+	}
+}
+
+/*# sourceMappingURL=main.css.map */
